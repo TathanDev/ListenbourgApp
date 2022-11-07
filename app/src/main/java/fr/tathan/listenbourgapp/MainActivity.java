@@ -10,24 +10,47 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button;
+    private Button translateButton;
+    private Button identityButton;
+    private Button passportButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.button = findViewById(R.id.translateButton);
+        this.translateButton = findViewById(R.id.translateButton);
+        this.identityButton = findViewById(R.id.identityButton);
+        this.passportButton = findViewById(R.id.passportButton);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        translateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, TranslateActivity.class);
                 startActivity(intent);
                 finish();
             }
-
         });
+
+        identityButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, IdentityActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        passportButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, PassportActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
     }
 
 }

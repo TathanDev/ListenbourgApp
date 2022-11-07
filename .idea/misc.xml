@@ -5,8 +5,11 @@
       <map>
         <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.177" />
         <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/drawable/ic_launcher_background.xml" value="0.177" />
+        <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/layout/activity_endity.xml" value="0.13177083333333334" />
+        <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/layout/activity_identity.xml" value="0.10099637681159421" />
         <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/layout/activity_translate.xml" value="0.22" />
+        <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/layout/activity_passport.xml" value="0.22" />
+        <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/layout/activity_translate.xml" value="0.10085470085470086" />
         <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/layout/activity_two.xml" value="0.2" />
         <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.177" />
         <entry key="..\:/Programming/Andoid/Listenbourg/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.177" />

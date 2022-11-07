@@ -8,28 +8,40 @@
 
 
     <Button
+        android:id="@+id/passportButton"
+        android:layout_width="250dp"
+        android:layout_height="95dp"
+        android:text="@string/passport"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <Button
         android:id="@+id/identityButton"
         android:layout_width="250dp"
         android:layout_height="95dp"
-        android:text="Carte D'identité"
+        android:text="@string/identity_card"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.372" />
+        app:layout_constraintVertical_bias="0.375" />
 
     <Button
         android:id="@+id/translateButton"
         android:layout_width="250dp"
-        android:layout_height="97dp"
-        android:text="Traducteur Listenbourgeois"
+        android:layout_height="95dp"
+        android:text="@string/traducteur_listenbourgeois"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.563" />
+        app:layout_constraintVertical_bias="0.74" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -44,12 +56,16 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="145dp"
-        android:layout_height="47dp"
-        android:text="Options"
-        android:textSize="40dp"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="171dp" />
+        android:layout_width="335dp"
+        android:layout_height="57dp"
+        android:text="Que voulez-vous faire?"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

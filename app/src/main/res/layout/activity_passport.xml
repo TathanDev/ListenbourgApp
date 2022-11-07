@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TranslateActivity">
+    tools:context=".PassportActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,9 +18,9 @@
         app:srcCompat="@drawable/listenbourg" />
 
     <WebView
-        android:id="@+id/translateWebView"
-        android:layout_width="409dp"
-        android:layout_height="558dp"
+        android:id="@+id/passportWebView"
+        android:layout_width="413dp"
+        android:layout_height="559dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,5 +39,6 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="?attr/actionModeCloseDrawable"
         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
