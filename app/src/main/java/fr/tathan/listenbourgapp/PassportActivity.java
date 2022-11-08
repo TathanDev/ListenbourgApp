@@ -15,21 +15,18 @@ public class PassportActivity extends AppCompatActivity {
     private ImageView backArrow;
     private WebView webview;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_passport);
-
 
         this.webview = (WebView) findViewById(R.id.passportWebView);
         webview.setWebViewClient(new MyBrowser());
         webview.loadUrl("https://listenbourg.vincelinise.com/listenpass/passeport.html");
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setLoadsImagesAutomatically(true);
-
-
+        webview.getSettings().setDomStorageEnabled(true);
+        webview.getSettings().setAllowFileAccess(true); //Allow file access from file URL
 
         this.backArrow = findViewById(R.id.backButton);
 

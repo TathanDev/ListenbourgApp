@@ -14,8 +14,6 @@ public class IdentityActivity extends AppCompatActivity {
     private ImageView backArrow;
     private WebView webview;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +24,8 @@ public class IdentityActivity extends AppCompatActivity {
         webview.loadUrl("https://listenbourg.vincelinise.com/listenpass/cni.html");
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setLoadsImagesAutomatically(true);
-
-
+        webview.getSettings().setDomStorageEnabled(true);
+        webview.getSettings().setAllowFileAccess(true); //Allow file access from file URL
 
         this.backArrow = findViewById(R.id.backButton);
 
@@ -49,6 +47,7 @@ public class IdentityActivity extends AppCompatActivity {
             view.loadUrl(url);
             return true;
         }
+
     }
 
 }

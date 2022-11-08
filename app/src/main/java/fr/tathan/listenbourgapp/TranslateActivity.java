@@ -15,8 +15,6 @@ public class TranslateActivity extends AppCompatActivity {
     private ImageView backArrow;
     private WebView webview;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +25,6 @@ public class TranslateActivity extends AppCompatActivity {
         webview.loadUrl("https://listenbourg.vincelinise.com/traduction/");
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setLoadsImagesAutomatically(true);
-
-
 
         this.backArrow = findViewById(R.id.backButton);
 
